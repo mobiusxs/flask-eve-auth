@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <h1>Dashboard</h1>
+  <ul>
+    <li>Name: {{ user.name }}</li>
+    <li>Character: {{ user.character_id }}</li>
+    <li>Corporation: {{ user.corporation_id }}</li>
+    <li>Alliance: {{ user.alliance_id }}</li>
+  </ul>
+{% endblock %}
